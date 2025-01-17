@@ -30,6 +30,6 @@ The **GTZAN dataset** contains:
 - 1,000 audio tracks (30 sec each)
 - Each genre has **100 audio samples**  
 
-🔹 **Download GTZAN:** [Marsyas Website](http://marsyas.info/downloads/datasets.html)  
+🔹 **Download GTZAN:** [Kaggle](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
 
 ---
