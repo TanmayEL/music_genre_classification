@@ -33,3 +33,6 @@ The **GTZAN dataset** contains:
 🔹 **Download GTZAN:** [Kaggle](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
 
 ---
+Example of Mel-Spectogram converted audio file:
+![Mel_Spectogram](image.png)
+=======
