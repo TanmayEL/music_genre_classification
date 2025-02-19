@@ -1,3 +1,5 @@
+W.I.P - Dockerizing the project
+
 # 🎵 Music Genre Classification using CNN & Mel-Spectrograms 🎶
 
 ## Overview
