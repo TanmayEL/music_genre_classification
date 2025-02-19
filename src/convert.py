@@ -9,6 +9,13 @@ SPEC_DATA_DIR = "data/spectrograms/"
 
 os.makedirs(SPEC_DATA_DIR, exist_ok=True)
 
+def audio_to_mel_spectrogram(file_path, sr=22050, n_mels=128, hop_length=512):
+    y, sr = librosa.load(file_path, sr=sr)
+    mel_spec = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=n_mels, hop_length=hop_length)
+    mel_spec_db = librosa.power_to_db(mel_spec, ref=np.max)
+
+    return mel_spec_db
+
 def generate_spectrogram(audio_path, save_path):
     y, sr = librosa.load(audio_path, sr=22050)
     spectrogram = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=128)
